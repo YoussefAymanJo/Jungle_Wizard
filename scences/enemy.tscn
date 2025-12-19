@@ -1,0 +1,154 @@
+[gd_scene load_steps=34 format=3 uid="uid://dalwh35c1l540"]
+
+[ext_resource type="Script" uid="uid://bpmm47w855ml7" path="res://scripts/enemy.gd" id="1_der1b"]
+[ext_resource type="Texture2D" uid="uid://u02xkrsuko7h" path="res://assets/SlimeOrange/SlimeOrange_00000.png" id="2_der1b"]
+[ext_resource type="Texture2D" uid="uid://cbv0tsa8paawe" path="res://assets/SlimeOrange/SlimeOrange_00001.png" id="3_u6ktv"]
+[ext_resource type="Texture2D" uid="uid://cwj1hk0mftyv3" path="res://assets/SlimeOrange/SlimeOrange_00002.png" id="4_0qdpj"]
+[ext_resource type="Texture2D" uid="uid://di7wwbb10wh5g" path="res://assets/SlimeOrange/SlimeOrange_00003.png" id="5_knims"]
+[ext_resource type="Texture2D" uid="uid://dkmypw22mjf24" path="res://assets/SlimeOrange/SlimeOrange_00004.png" id="6_0kkyt"]
+[ext_resource type="Texture2D" uid="uid://cve7qdmaubio3" path="res://assets/SlimeOrange/SlimeOrange_00005.png" id="7_o56ue"]
+[ext_resource type="Texture2D" uid="uid://b3ruyh5i1h1h5" path="res://assets/SlimeOrange/SlimeOrange_00006.png" id="8_y0svv"]
+[ext_resource type="Texture2D" uid="uid://blbc68k6c0xx8" path="res://assets/SlimeOrange/SlimeOrange_00007.png" id="9_ka7w3"]
+[ext_resource type="Texture2D" uid="uid://cxulmkfpxgvi8" path="res://assets/SlimeOrange/SlimeOrange_00008.png" id="10_8mean"]
+[ext_resource type="Texture2D" uid="uid://cnnydcb1ep05u" path="res://assets/SlimeOrange/SlimeOrange_00009.png" id="11_rpnrn"]
+[ext_resource type="Texture2D" uid="uid://csvyudo8kbx1k" path="res://assets/SlimeOrange/SlimeOrange_00010.png" id="12_kygmr"]
+[ext_resource type="Texture2D" uid="uid://dv1fufrrr73sy" path="res://assets/SlimeOrange/SlimeOrange_00011.png" id="13_n5oux"]
+[ext_resource type="Texture2D" uid="uid://dpnx1gmh2xh7k" path="res://assets/SlimeOrange/SlimeOrange_00012.png" id="14_evwpp"]
+[ext_resource type="Texture2D" uid="uid://bp0bsu648mvou" path="res://assets/SlimeOrange/SlimeOrange_00013.png" id="15_4d6yx"]
+[ext_resource type="Texture2D" uid="uid://c3upottw2yos1" path="res://assets/SlimeOrange/SlimeOrange_00014.png" id="16_2iqta"]
+[ext_resource type="Texture2D" uid="uid://brt2rqod4kf4x" path="res://assets/SlimeOrange/SlimeOrange_00015.png" id="17_4prfs"]
+[ext_resource type="Texture2D" uid="uid://87wunlq5atqg" path="res://assets/SlimeOrange/SlimeOrange_00016.png" id="18_8wn0b"]
+[ext_resource type="Texture2D" uid="uid://b01781xl41sq8" path="res://assets/SlimeOrange/SlimeOrange_00017.png" id="19_2kacu"]
+[ext_resource type="Texture2D" uid="uid://d4gb07s87hr5w" path="res://assets/SlimeOrange/SlimeOrange_00018.png" id="20_iblsh"]
+[ext_resource type="Texture2D" uid="uid://cucachi708f0s" path="res://assets/SlimeOrange/SlimeOrange_00019.png" id="21_fbdv8"]
+[ext_resource type="Texture2D" uid="uid://blnt5y3uk5gej" path="res://assets/SlimeOrange/SlimeOrange_00020.png" id="22_ejeod"]
+[ext_resource type="Texture2D" uid="uid://ckox7ek262p5w" path="res://assets/SlimeOrange/SlimeOrange_00021.png" id="23_wt140"]
+[ext_resource type="Texture2D" uid="uid://bcv3xh2fdnomg" path="res://assets/SlimeOrange/SlimeOrange_00022.png" id="24_vpeiy"]
+[ext_resource type="Texture2D" uid="uid://c24daxtu3bhhj" path="res://assets/SlimeOrange/SlimeOrange_00023.png" id="25_b6dcs"]
+[ext_resource type="Texture2D" uid="uid://f5yl5fe4pd4e" path="res://assets/SlimeOrange/SlimeOrange_00024.png" id="26_p37nq"]
+[ext_resource type="Texture2D" uid="uid://dflilc867rwlv" path="res://assets/SlimeOrange/SlimeOrange_00025.png" id="27_ci7ep"]
+[ext_resource type="Texture2D" uid="uid://cv7tcw26lpafr" path="res://assets/SlimeOrange/SlimeOrange_00026.png" id="28_186r4"]
+[ext_resource type="Texture2D" uid="uid://fx454kx7d5i3" path="res://assets/SlimeOrange/SlimeOrange_00027.png" id="29_rnw3w"]
+[ext_resource type="Texture2D" uid="uid://dc072j2q4gomu" path="res://assets/SlimeOrange/SlimeOrange_00028.png" id="30_2swaf"]
+[ext_resource type="Texture2D" uid="uid://dc8l2k5x1mo83" path="res://assets/SlimeOrange/SlimeOrange_00029.png" id="31_jreh7"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jreh7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_der1b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_u6ktv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_0qdpj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_knims")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_0kkyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_o56ue")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_y0svv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ka7w3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_8mean")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_rpnrn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_kygmr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_n5oux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_evwpp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_4d6yx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_2iqta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_4prfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_8wn0b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_2kacu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_iblsh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_fbdv8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ejeod")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_wt140")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_vpeiy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_b6dcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_p37nq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_ci7ep")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_186r4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_rnw3w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_2swaf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_jreh7")
+}],
+"loop": true,
+"name": &"default",
+"speed": 20.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vohor"]
+radius = 114.01754
+
+[node name="enemy" type="CharacterBody2D" groups=["Enemy"]]
+collision_layer = 9
+collision_mask = 9
+script = ExtResource("1_der1b")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_jreh7")
+autoplay = "default"
+frame_progress = 0.6401841
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+
+[node name="Area2D" type="Area2D" parent="." groups=["Enemy"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(10, 21)
+shape = SubResource("CircleShape2D_vohor")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

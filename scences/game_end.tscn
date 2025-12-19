@@ -1,0 +1,36 @@
+[gd_scene load_steps=2 format=3 uid="uid://5g3vphs17yqq"]
+
+[ext_resource type="Script" uid="uid://d3j8qw5yss82u" path="res://scripts/game_end.gd" id="1_uckll"]
+
+[node name="Game_end" type="Node2D"]
+script = ExtResource("1_uckll")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+offset_left = 364.0
+offset_top = 167.0
+offset_right = 798.0
+offset_bottom = 277.0
+theme_override_font_sizes/font_size = 80
+text = "Game Over"
+
+[node name="Playagain" type="Button" parent="CanvasLayer"]
+offset_left = 273.0
+offset_top = 383.0
+offset_right = 531.0
+offset_bottom = 460.0
+theme_override_font_sizes/font_size = 50
+text = "Play Again
+"
+
+[node name="Exit" type="Button" parent="CanvasLayer"]
+offset_left = 653.0
+offset_top = 380.0
+offset_right = 920.0
+offset_bottom = 464.0
+theme_override_font_sizes/font_size = 50
+text = "Exit "
+
+[connection signal="pressed" from="CanvasLayer/Playagain" to="." method="_on_playagain_pressed"]
+[connection signal="pressed" from="CanvasLayer/Exit" to="." method="_on_exit_pressed"]
